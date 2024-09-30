@@ -143,10 +143,3 @@ if uploaded_file or st.checkbox("Use example dataset"):
 # If no file is uploaded
 else:
     st.write("Please upload a CSV file or use the example dataset to start the analysis.")
-"""
-
-# Save the code to a .py file
-with open('churn_app.py', 'w') as file:
-    file.write(code)
-
-st.write("File saved as churn_app.py")
